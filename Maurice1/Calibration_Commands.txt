@@ -1,0 +1,14 @@
+---- Reset Z-Offset ----
+Set Z-Offset to 0: M851 Z0
+Save Eeprom: M500
+Activate Eeprom: M501
+Home X,Y,Z: G28
+Move Nozzle to Z0: G1 F60 Z0
+Set Z-Offset (Current Offset): M851 Z-2.99
+Save Eeprom: M500
+Activate Eeprom: M501
+Home X,Y,Z: G28
+Level Bed: G29
+Save Eeprom: M500
+Activate Eeprom: M501
+
